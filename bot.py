@@ -67,7 +67,7 @@ def build_inline_results() -> list[InlineQueryResultArticle]:
         InlineQueryResultArticle(
             id=str(uuid.uuid4()),
             title="Подбросить монетку",
-            description=text,
+            description="Результат — после отправки в чат",
             input_message_content=InputTextMessageContent(message),
         ),
     ]
